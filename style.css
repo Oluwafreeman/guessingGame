@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: #fff;
+  font-family: "Righteous", cursive;
+  padding: 0.5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  margin-bottom: 4rem;
+  /* font-family: 'Merriweather', serif; */
+}
+
+button {
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  color: #000;
+  background-color: #fff;
+  font-family: "Righteous", cursive;
+}
+button:hover {
+  cursor: pointer;
+}
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 0.2rem;
+  margin-bottom: 4rem;
+}
+section {
+  text-align: center;
+}
+.secretNumber {
+  width: 4rem;
+  padding: 1rem;
+  color: #000;
+  background: #fff;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: 65px;
+  font-size: 1.5rem;
+}
+hr {
+  border-bottom: 5px solid #fff;
+  margin: 2rem 0;
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.left {
+  display: inline-block;
+}
+.right {
+  flex: 0.5;
+  text-align: left;
+}
+input {
+  margin-bottom: 0.6rem;
+  width: 4rem;
+  height: 2rem;
+  background-color: transparent;
+  color: #fff;
+  border: 0.15rem solid #fff;
+  text-align: center;
+  font-family: Righteous;
+}
+.message {
+  margin-bottom: 0.8rem;
+}
+.wrong {
+  color: red;
+}
